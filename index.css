@@ -1,6 +1,7 @@
 body {
   background: url("https://img.quizur.com/f/img638416f95c3a02.09155291.jpg?lastEdited=1669601029");
   background-size: cover;
+  background-position: center;
   height: 100vh;
   margin: 0;
   display: flex;
@@ -25,8 +26,11 @@ body {
   transition: background-color 0.3s ease;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   margin: 10px;
+  width: 100%; /* Defina a largura como 100% para que os botões ocupem toda a largura da tela */
+  max-width: 300px; /* Defina um tamanho máximo para evitar que os botões fiquem muito largos em telas maiores */
 }
 
 .modern-button:hover {
   background-color: #2980b9;
 }
+
