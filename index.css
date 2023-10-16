@@ -1,0 +1,32 @@
+body {
+  background: url("https://img.quizur.com/f/img638416f95c3a02.09155291.jpg?lastEdited=1669601029");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d0e9dafd;
+  font-family: Arial, sans-serif;
+}
+
+#conteudo {
+  text-align: center;
+}
+
+.modern-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.modern-button:hover {
+  background-color: #2980b9;
+}
